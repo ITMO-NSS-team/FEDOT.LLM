@@ -1,0 +1,9 @@
+scanner:
+  diff_only: False # The entire file touched by the Pull Request is scanned for errors.
+  linter: pycodestyle
+
+pycodestyle:
+  max-line-length: 120 # Default is 79 in PEP 8
+  ignore: []
+
+no_blank_comment: False  # Every PR will have its own PEP 8 stats.
